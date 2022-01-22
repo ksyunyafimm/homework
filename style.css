@@ -105,6 +105,10 @@ h2 {
   margin-right: 50px;
   background: linear-gradient(0deg, #ffffff, #ffffff);
   border: none;
+  transition: border 0.1s linear;
+}
+.btn-register:hover {
+  border: 2px solid black;
 }
 .platforms {
   position: absolute;
@@ -156,6 +160,10 @@ h2 {
   color: #4a4a4a;
   background: none;
   margin-right: 30px;
+  transition: background 0.1s linear;
+}
+.btn:hover {
+  background: blanchedalmond;
 }
 .workshop {
   font-family: Fira Sans;
@@ -363,6 +371,10 @@ h3 {
   width: 186px;
   height: 66px;
   border: none;
+  transition: border 0.1s linear;
+}
+.btn-register-color:hover {
+  border: 2px solid black;
 }
 .btn-flex {
   display: flex;
@@ -434,6 +446,10 @@ h3 {
 
   background: linear-gradient(0deg, #ffffff, #ffffff);
   border: none;
+  transition: border 0.1s linear;
+}
+.btn-white:hover {
+  border: 2px solid black;
 }
 .btn-flex2 {
   display: flex;
@@ -480,6 +496,10 @@ h3 {
   height: 46px;
   background: #ff7e03;
   border: none;
+  transition: border 0.1s linear;
+}
+.btn-social:hover {
+  border: 2px solid black;
 }
 .social-text {
   font-family: Source Sans Pro;
